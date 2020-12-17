@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class Ennemi {
 
+    //attributs
     private String nomEnnemi;
     private int hp;
     private int force;
@@ -11,6 +12,7 @@ public class Ennemi {
     private int degatMax;
 
 
+    //Contructeur
     public Ennemi(String nomEnnemi, int hp, int force, int agy, int degatMax) {
         this.nomEnnemi=nomEnnemi;
         this.hp = hp;
@@ -19,6 +21,7 @@ public class Ennemi {
         this.degatMax = degatMax;
     }
 
+    //getter setter
     public String getNomEnnemi() {
         return nomEnnemi;
     }

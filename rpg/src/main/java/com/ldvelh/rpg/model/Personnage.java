@@ -1,4 +1,4 @@
-package rpg.src.main.java.com.ldvelh.rpg;
+package com.ldvelh.rpg.model;
 
 public class Personnage {
 
