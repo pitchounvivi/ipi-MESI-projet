@@ -1,46 +1,23 @@
 package com.ldvelh.rpg.model;
 
-public class Personnage {
+import java.util.Random;
+
+public class Personnage extends Personne {
 
     //Attributs
-    private int vie;
+
     private int xp;
-    private int agy;
-    private int force;
+    private String nom;
 
     //Contructeurs
-    public Personnage(){
-        vie = 100;
-        xp = 0;
-        agy = 10;
-        force = 10;
+    public Personnage(String nom, int vie, int force, int agy, int degatMax){
+        super(vie,force,agy,degatMax);
+        this.nom=nom;
+        this.xp = 0;
+
     }
 
     //Accesseurs
-    public int getVie() {
-        return vie;
-    }
-
-    public void setVie(int vie) {
-        this.vie = vie;
-    }
-
-    public int getAgy() {
-        return agy;
-    }
-
-    public void setAgy(int agy) {
-        this.agy = agy;
-    }
-
-    public int getForce() {
-        return force;
-    }
-
-    public void setForce(int force) {
-        this.force = force;
-    }
-
     public int getXp() {
         return xp;
     }
@@ -48,4 +25,7 @@ public class Personnage {
     public void setXp(int xp) {
         this.xp = xp;
     }
+
+
+
 }
