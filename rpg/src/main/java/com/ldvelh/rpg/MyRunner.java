@@ -23,8 +23,9 @@ public class MyRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-//        !!!!Remarque importante = pour que le Runner fonctionne, il faut commenter la ligne
-//              spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+//        !!!!Remarque importante = Dans l'état actuel de l'appli
+//              pour que le Runner fonctionne, il faut commenter la ligne
+//                  spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
 //              dans le fichier application.properties
         System.out.println("!!!!!!ESSAI RUNNER!!!!!!");
 
